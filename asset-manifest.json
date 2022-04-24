@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/group70/static/css/main.6af5e186.css",
+    "main.js": "/group70/static/js/main.51d382be.js",
+    "static/media/hero3.png": "/group70/static/media/hero3.48a2753de6bb8c7437bc.png",
+    "static/media/hero2.png": "/group70/static/media/hero2.0f876b57f2f78dc40f0c.png",
+    "static/media/LaBelleAurore.woff2": "/group70/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "index.html": "/group70/index.html",
+    "main.6af5e186.css.map": "/group70/static/css/main.6af5e186.css.map",
+    "main.51d382be.js.map": "/group70/static/js/main.51d382be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6af5e186.css",
+    "static/js/main.51d382be.js"
+  ]
+}
