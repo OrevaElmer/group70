@@ -30,7 +30,9 @@ export default function Footer(){
             <div id="copywright">
                 <p> <span>&copy;2022</span> GROUP70 RESTAURANT</p>
                 <p>
-                    <i>Social Icon goes here</i>
+                    <a href="/"><img src={require("./img/social/telegram-icon.png")} alt=""/></a>
+                    <a href="/"><img src={require("./img/social/linkedIn-icon.png")} alt=""/></a>
+                    <a href="/"><img src={require("./img/social/whatsApp-icon.png")} alt=""/></a>
                 </p>
             </div>
         </footer>

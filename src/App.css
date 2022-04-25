@@ -245,6 +245,7 @@ footer p{
 footer #copywright{
   padding: 20px 80px;
   display: flex;
+  align-items: center;
   background-color: rgb(41, 39, 39);
 }
 footer #copywright p{
@@ -254,7 +255,10 @@ footer #copywright p{
 footer #copywright p span{
   padding-right: 10px;
 }
-
+footer #copywright p img{
+  width: 60px;
+  padding: 0 5px;
+}
 /*
 
 */
