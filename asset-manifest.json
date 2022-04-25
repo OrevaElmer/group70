@@ -1,16 +1,25 @@
 {
   "files": {
     "main.css": "/group70/static/css/main.6af5e186.css",
-    "main.js": "/group70/static/js/main.51d382be.js",
+    "main.js": "/group70/static/js/main.e218d367.js",
     "static/media/hero3.png": "/group70/static/media/hero3.48a2753de6bb8c7437bc.png",
     "static/media/hero2.png": "/group70/static/media/hero2.0f876b57f2f78dc40f0c.png",
+    "static/media/potato-chip.jpg": "/group70/static/media/potato-chip.37bbb4f85f535caab34f.jpg",
+    "static/media/jollof-rice.jpg": "/group70/static/media/jollof-rice.54aacf66f1f95c67e8fa.jpg",
+    "static/media/server.jpg": "/group70/static/media/server.4d57d30a10b96ad02df2.jpg",
+    "static/media/pastry-chef.jpg": "/group70/static/media/pastry-chef.48bf4e2be5d182e3efbf.jpg",
+    "static/media/burger.jpg": "/group70/static/media/burger.c753eda65df284624009.jpg",
+    "static/media/kitchen-manager.jpg": "/group70/static/media/kitchen-manager.d7ff69436b1e4c5f6bd9.jpg",
+    "static/media/main-chef.jpg": "/group70/static/media/main-chef.9b1c3e3af17f5f0b6b89.jpg",
+    "static/media/fried-rice.jpg": "/group70/static/media/fried-rice.011db85aad9328bafd1c.jpg",
+    "static/media/group70Logo.png": "/group70/static/media/group70Logo.e969777b7fea414ab5d2.png",
     "static/media/LaBelleAurore.woff2": "/group70/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "index.html": "/group70/index.html",
     "main.6af5e186.css.map": "/group70/static/css/main.6af5e186.css.map",
-    "main.51d382be.js.map": "/group70/static/js/main.51d382be.js.map"
+    "main.e218d367.js.map": "/group70/static/js/main.e218d367.js.map"
   },
   "entrypoints": [
     "static/css/main.6af5e186.css",
-    "static/js/main.51d382be.js"
+    "static/js/main.e218d367.js"
   ]
 }
