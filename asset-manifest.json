@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/group70/static/css/main.bef40a5b.css",
-    "main.js": "/group70/static/js/main.13807b28.js",
+    "main.css": "/group70/static/css/main.247097c5.css",
+    "main.js": "/group70/static/js/main.7afede6e.js",
     "static/media/hero3.png": "/group70/static/media/hero3.48a2753de6bb8c7437bc.png",
     "static/media/hero2.png": "/group70/static/media/hero2.0f876b57f2f78dc40f0c.png",
     "static/media/potato-chip.jpg": "/group70/static/media/potato-chip.37bbb4f85f535caab34f.jpg",
@@ -15,11 +15,11 @@
     "static/media/group70Logo.png": "/group70/static/media/group70Logo.e969777b7fea414ab5d2.png",
     "static/media/LaBelleAurore.woff2": "/group70/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "index.html": "/group70/index.html",
-    "main.bef40a5b.css.map": "/group70/static/css/main.bef40a5b.css.map",
-    "main.13807b28.js.map": "/group70/static/js/main.13807b28.js.map"
+    "main.247097c5.css.map": "/group70/static/css/main.247097c5.css.map",
+    "main.7afede6e.js.map": "/group70/static/js/main.7afede6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bef40a5b.css",
-    "static/js/main.13807b28.js"
+    "static/css/main.247097c5.css",
+    "static/js/main.7afede6e.js"
   ]
 }
