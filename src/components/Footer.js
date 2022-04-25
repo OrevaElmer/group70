@@ -29,7 +29,9 @@ export default function Footer(){
 
             <div id="copywright">
                 <p> <span>&copy;2022</span> GROUP70 RESTAURANT</p>
-                <p>facebook instagram youtube twitter</p>
+                <p>
+                    <i>Social Icon goes here</i>
+                </p>
             </div>
         </footer>
         </>

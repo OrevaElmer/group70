@@ -56,6 +56,7 @@ body{
   position: sticky;
   top: 0;
   left: 0;
+  flex-wrap: wrap;
 }
 .logo{
   width: 100px;
@@ -67,7 +68,10 @@ body{
 }
 #navbar li{
   list-style: none;
-  padding: 0 20px;
+  padding: 10px 10px;
+}
+#navbar li:first-child{
+  padding-left: 0px;
 }
 #navbar li .link{
   text-decoration: none;
@@ -126,9 +130,10 @@ body{
 .service-container{
   padding: 20px 80px;
   display: flex;
+  flex-wrap: wrap;
 }
 .myCol4{
-  width: 41.66666667%;
+  width: 33.33333333%;
   padding: 0 30px;
   display: flex;
   justify-items: start;
@@ -165,11 +170,16 @@ hr{
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .hotdish-container .myCol3,
 .staff-container .myCol3{
-  width: 33.33333333%;
+  width: 25%;
   padding: 0 10px;
+}
+.hotdish-container .myCol3:first-child,
+.staff-container .myCol3:first-child{
+  padding: 0 10px 0 10px;
 }
 .hotdish-container .myCol3 img,
 .staff-container .myCol3 img{
@@ -244,8 +254,133 @@ footer #copywright p{
 footer #copywright p span{
   padding-right: 10px;
 }
+
 /*
 
 */
 /* footer section end */
 
+@media (max-width:799px) {
+  .myCol4 {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    text-align: justify;
+  }
+  .service-desc h4 {
+    text-align: center;
+  }
+  #hotdish{
+    padding: 40px 80px;
+  }
+  #hotdish h1, 
+  #staff h1 {
+    font-size: 48px;
+  }
+  #hotdish hr, 
+  #staff hr {
+    width: 100%;
+  }
+  .hotdish-container, 
+  .staff-container {
+    margin: 0px 0px;
+  }
+  .hotdish-container .myCol3, 
+  .staff-container .myCol3 {
+    width: 50%;
+    padding: 15px 10px;
+  }
+  .hotdish-container .myCol3:first-child, 
+  .staff-container .myCol3:first-child {
+    padding: 15px 10px;
+  }
+  #staff{
+    padding: 40px 80px;
+  }
+  footer .col {
+    display: flex;
+    width: 50%;
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width:575.98px){
+  #header {
+  padding: 40px 40px;
+  }
+  #hero {
+    height: 60vh;
+  }
+  #hero h4 {
+    padding: 10px;
+    font-size: 30px;
+  }
+  #hero h1 {
+    font-size: 80px;
+  }
+  #hero h3 {
+    font-size: 26px;
+  }
+  .service-container {
+    padding: 40px 40px;
+  }
+  .myCol4 {
+    width: 100%;
+    padding: 0 10px 20px 5px;
+  }
+  .myCol4:last-child{
+    padding-bottom: 0px;
+  }
+  #hotdish {
+    padding: 50px 40px;
+  }
+  #hotdish h1{
+    font-size: 32px;
+  }
+  #hotdish hr,
+  #staff hr{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .hotdish-container, 
+  .staff-container {
+    margin: 0px 0px;
+  }
+  .hotdish-container .myCol3, 
+  .staff-container .myCol3 {
+    width: 100%;
+    padding: 15px 0px;
+  }
+  #hotdish h1, #staff h1 {
+    font-size: 32px;
+  }
+  #staff{
+    padding: 50px 40px;
+  }
+  footer .col {
+    padding: 10px 10px;
+  }
+  footer .col {
+  width: 100%;
+  align-items: center;
+  padding: 15px 0px;
+  }
+  footer .col p{
+    text-align: center;
+  }
+  footer #col-container {
+    padding: 40px 40px;
+}
+  footer #copywright {
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer #copywright p {
+    width: 100%;
+    text-align: center;
+  }
+}
