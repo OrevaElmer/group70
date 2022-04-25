@@ -13,7 +13,7 @@ export default function Footer(){
             </div>
             <div class="col">
                 <h4> CONTACT US </h4>
-                <p><strong>Email: </strong>info@blucabana.com</p>
+                <p><strong>Email: </strong>info@group70.com</p>
                 <p><strong>Tel:  </strong>+234 810 1111 222</p>
             </div>
             <div class="col">
